@@ -1,0 +1,70 @@
+* {
+  font-family: sans-serif;
+}
+
+
+.form-control {
+  background-color: black;
+  color: white;
+}
+
+.biggest-heading {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .about-section {
+    flex-direction: column;
+  }
+
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+
+
+media screen and (max-width: 576px) {
+  .section-2 {
+    flex-direction: column;
+    margin-top: 75px;
+  }
+}
+
+
+.section-2 {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  height: 50vh;
+}
+
+
+.card-item:hover {
+  background-color: black;
+  color: white;
+  transition-delay: 0.3s;
+
+}
+#services{
+  overflow-x:scroll;
+  overflow-y:hidden;
+}
